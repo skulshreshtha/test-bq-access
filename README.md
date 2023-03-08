@@ -1,7 +1,8 @@
 # test-bq-access
 
 ## Steps to follow
-1. Follow the gcloud CLI download and login process as described in the image `steps_for_gcloud_login`, you will have a file called `application-default-credentials.json`
+1. Follow the gcloud CLI download and login process as described in the image ![steps_for_gcloud_login](steps_for_gcloud_login.png).   
+This will create a file called `application-default-credentials.json`
 saved at your `$HOME/.config/gcloud/` directory. This file contains credentials which will be used by any application / project you develop locally without
 providing any other credentials.  
 2. What that also means is that now you can authenticate as yourself, and since you have live DWH access the applications you run locally will have the same access.
